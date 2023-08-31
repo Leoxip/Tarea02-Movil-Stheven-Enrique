@@ -3,7 +3,14 @@
     <style name="Base.Theme.Tarea02MovilSthevenEnrique" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/azuverde</item>
+        <item name="colorPrimaryVariant">@color/azuverde</item>
     </style>
 
     <style name="Theme.Tarea02MovilSthevenEnrique" parent="Base.Theme.Tarea02MovilSthevenEnrique" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
 </resources>
